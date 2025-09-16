@@ -1,0 +1,17 @@
+[project]
+name = "projects"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "dk",email = "deepu.krishnareddy@reutlingen-university.de"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<4"
+dependencies = [
+    "pydantic (>=2.11.7,<3.0.0)",
+    "agno (>=1.7.7,<2.0.0)",
+    "openai (>=1.98.0,<2.0.0)",
+    "streamlit>=1.49.1",
+]
+
+
