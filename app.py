@@ -12,7 +12,7 @@ from form_extraction import  run_form_extraction_agent
 def main():
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        os.environ["OPENAI_API_KEY"] = "your_api_key_here"
+        os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
           
 
     st.set_page_config(layout="wide")
